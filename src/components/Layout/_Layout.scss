@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+section#root {
+  //height: 100%;
+}
+
+.layout {
+  height: 100%;
+  @include flex-layout(center, flex, column, space-between);
+  footer {
+    display: none;
+  }
+  footer, header {
+    background: cadetblue;
+  }
+  header, section, footer {
+    width: 100%;
+  }
+  section {
+    height: 100%;
+    .content {
+      margin: 20px;
+      height: 100%;
+    }
+  }
+  header {
+    .nav {
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          //flex: 1;
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: #f0f0f0;
+          }
+        }
+        @include flex-layout(center, flex, wrap, space-between);
+        margin: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.home-content {
+  table {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    border-spacing: 0;
+    thead {}
+    td, th {
+      border: solid 1px silver;
+      padding: 10px;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+        }
+      }
+    }
+  }
+  .links {
+    @include flex-layout(center, flex, row, space-between);
+    padding: 10px 0 20px;
+    font-size: 18px;
+    a {
+      text-decoration: none;
+      color: cadetblue;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
