@@ -20,9 +20,9 @@ otro para correr el servidor en NodeJS, asi que aquí los pasos siguientes:
 
 <ul>
     <li>Levantar servidor mediante comando => npm run server</li>
-    <li>Para el servidor ingreser a http://localhost:4000/api/travels</li>
+    <li>Para el servidor ingreser a <a target="_blank" href="http://localhost:4000/api/travels">http://localhost:4000/api/travels</a></li>
     <li>Desde otra terminal Levantar Front-End mediante comando => npm start</li>
-    <li>Para el cliente se abrirá en automatico explorador http://localhost:9000, por el contrario
+    <li>Para el cliente se abrirá en automatico explorador <a target="_blank" href="http://localhost:9000">http://localhost:9000</a>, por el contrario
         ingresarlo manualmente
     </li>
 </ul>
